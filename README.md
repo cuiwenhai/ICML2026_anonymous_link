@@ -22,7 +22,7 @@
   <img src="q4_p1.png" width="500">
 </div>
 
-> **Figure 3: Original Pareto Frontier.** This figure illustrates the empirical trade-off between predictive risk and unfairness un . The yellow marker indicates the optimal knee point ($\lambda=0.52$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.
+> **Figure 3: Original Pareto Frontier.** This figure illustrates the empirical trade-off between predictive risk (LAD) and unfairness. The yellow marker indicates the optimal knee point ($\lambda=0.52$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.
 
 ---
 
@@ -42,4 +42,4 @@
   <img src="q4_p3.png" width="500">
 </div>
 
-> **Figure 5: Trade-off Dynamics.** This figure plots the empirical risk and unfairness against the interpolation parameter $\lambda$. It empirically verifies our Theorems 3.5 and 3.6: as $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the  knee point  point.
+> **Figure 5: Trade-off Dynamics.** This figure plots the empirical risk (LAD)  and unfairness against the interpolation parameter $\lambda$. It empirically verifies our Theorems 3.5 and 3.6: as $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the  knee point  point.
