@@ -1,4 +1,4 @@
-## 1. Empirical Risk vs. $\lambda$
+## Fugure 1. Empirical Risk vs. $\lambda$
 
 <div align="center">
   <img src="q1_p1.png" width="500">
@@ -8,7 +8,7 @@
 
 ---
 
-## 2. Empirical Unfairness vs. $\lambda$
+## Figure 2. Empirical Unfairness vs. $\lambda$
 
 <div align="center">
   <img src="q1_p2.png" width="500">
@@ -16,7 +16,7 @@
 
 > **Figure 2: Empirical Unfairness vs. $\lambda$.** This figure compares the unfairness levels across 100 independent trials. Note the highly stable confidence bands achieved by the kernel smoothing technique.
 
-## 3. Original Pareto Frontier and Optimal Trade-off Point
+## Figure 3. Original Pareto Frontier and Optimal Trade-off Point
 
 <div align="center">
   <img src="q4_p1.png" width="500">
@@ -26,7 +26,7 @@
 
 ---
 
-## 4. Normalized Pareto Frontier
+## Figure 4. Normalized Pareto Frontier
 
 <div align="center">
   <img src="q4_p2.png" width="500">
@@ -36,7 +36,7 @@
 
 ---
 
-## 5. Trade-off Dynamics over Interpolation Parameter $\lambda$
+## Figure5. Trade-off Dynamics over Interpolation Parameter $\lambda$
 
 <div align="center">
   <img src="q4_p3.png" width="500">
