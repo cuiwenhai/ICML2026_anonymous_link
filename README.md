@@ -26,7 +26,7 @@
 
 ---
 
-## 4. Normalized Pareto Frontier and Kneedle Mathematical Logic
+## 4. Normalized Pareto Frontier
 
 <div align="center">
   <img src="q4_p2.png" width="500">
