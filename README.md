@@ -22,7 +22,7 @@
   <img src="q4_p1.png" width="500">
 </div>
 
-> **Figure 3: Original Pareto Frontier.** This figure illustrates the empirical trade-off between predictive risk and unfairness un . The yellow marker indicates the optimal knee point ($\lambda=0.48$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.
+> **Figure 3: Original Pareto Frontier.** This figure illustrates the empirical trade-off between predictive risk and unfairness un . The yellow marker indicates the optimal knee point ($\lambda=0.52$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.
 
 ---
 
@@ -32,7 +32,7 @@
   <img src="q4_p2.png" width="500">
 </div>
 
-> **Figure 4: Normalized Pareto Frontier.** This figure demonstrates the underlying mathematical mechanism of the optimal $\lambda$ selection. By mapping the frontier into a $[0, 1]$ normalized space, the Kneedle algorithm rigorously identifies the equilibrium point that maximizes the vertical distance to the reference chord, precisely locating where the marginal rate of substitution is $-1$.
+> **Figure 4: Normalized Pareto Frontier.** This figure demonstrates the underlying mathematical mechanism of the optimal $\lambda$ selection. By mapping the frontier into a $[0, 1]$ normalized space, the Kneedle algorithm rigorously identifies the equilibrium point that maximizes the vertical distance to the reference chord.
 
 ---
 
@@ -42,4 +42,4 @@
   <img src="q4_p3.png" width="500">
 </div>
 
-> **Figure 5: Trade-off Dynamics.** This figure plots the empirical risk and unfairness against the interpolation parameter $\lambda$. It empirically verifies our Theorems 3.5 and 3.6: as $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the optimal truncation point.
+> **Figure 5: Trade-off Dynamics.** This figure plots the empirical risk and unfairness against the interpolation parameter $\lambda$. It empirically verifies our Theorems 3.5 and 3.6: as $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the  knee point  point.
