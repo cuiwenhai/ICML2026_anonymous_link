@@ -57,9 +57,9 @@
 
 
 
-**Table 2: The runtime (in seconds) with varying sample sizes (\\(n\\)) and numbers of I-spline basis functions (\\(J _{n}\\)).**
+**Table 2: The runtime (in seconds) with varying sample sizes $(n)$ and numbers of I-spline basis functions ($J _{n}$).**
 
-| \\(n \\setminus J _{n}\\) | 6 | 9 | 12 | 15 | 18 | 23 | 28 |
+| $n \setminus J _{n}$ | 6 | 9 | 12 | 15 | 18 | 23 | 28 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 500 | 0.0480 | 0.0960 | 0.2734 | 0.4559 | 0.8092 | 1.1964 | 0.5196 |
 | 1000 | 0.0640 | 0.4188 | 0.3572 | 0.7667 | 0.3001 | 0.3851 | 0.8987 |
