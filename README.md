@@ -35,7 +35,7 @@
 
 ---
 
-**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials).
+**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials); The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
 | Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -60,9 +60,9 @@
 
 
 
-**Table 3:** Performance comparison of FRWB, Standard I-Spline and Natural I-Spline (100 Trials).
+**Table 3:** Performance comparison of FRWB, Standard I-Spline and Natural I-Spline (100 Trials); The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
-| Method | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Unfairness (Mean) | Unfairness (Std. Dev.) |
+| Method | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
 | FRWB (Baseline) | 3.9541 | 1.6514 | 0.0124 | 0.0016 |
 | Natural I-Spline | 3.8872 | 1.6528 | **0.0040** | **0.0009** |
@@ -71,7 +71,7 @@
 
 
 
-**Table 4:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss with 100 trials.
+**Table 4:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss with 100 trials; The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups..
 
 | Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
