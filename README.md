@@ -1,38 +1,28 @@
-## Fugure 1. Empirical Risk vs. $\lambda$
+|
+## Figure 1. Normalized Pareto Frontier
+![Empirical risk versus \lambda](q1_p1.png) | ![Empirical unfairness versus \lambda](q1_p2.png) |
+| :---: | :---: |
+| (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
 
-<div align="center">
-  <img src="q1_p1.png" width="500">
-</div>
+> **Figure 1:** Performance evaluation over 100 independent trials under the Huber loss ($\zeta=1.345$).  
+> **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$. This plot validates that for small $\lambda$, our kernel-based approach achieves lower empirical risk and significantly reduces the variance compared to the standard empirical CDF-based method.  
+> **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
 
-> **Figure 1: Empirical Risk vs. $\lambda$.** This plot validates that our kernel-based approach achieves lower empirical risk and significantly reduced variance compared to the standard empirical method across varying interpolation parameters.
-
----
-
-## Figure 2. Empirical Unfairness vs. $\lambda$
-
-<div align="center">
-  <img src="q1_p2.png" width="500">
-</div>
-
-> **Figure 2: Empirical Unfairness vs. $\lambda$.** This figure compares the unfairness levels across 100 independent trials. Note the highly stable confidence bands achieved by the kernel smoothing technique.
-
-## Figure 3. Original Pareto Frontier and Optimal Trade-off Point
-
-<div align="center">
-  <img src="q4_p1.png" width="500">
-</div>
-
-> **Figure 3: Original Pareto Frontier.** This figure illustrates the empirical trade-off between predictive risk (LAD) and unfairness. The yellow marker indicates the optimal knee point ($\lambda=0.52$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.
 
 ---
 
-## Figure 4. Normalized Pareto Frontier
+  
 
-<div align="center">
-  <img src="q4_p2.png" width="500">
-</div>
+## Figure 2. Normalized Pareto Frontier
 
-> **Figure 4: Normalized Pareto Frontier.** This figure demonstrates the underlying mathematical mechanism of the optimal $\lambda$ selection. By mapping the frontier into a $[0, 1]$ normalized space, the Kneedle algorithm rigorously identifies the equilibrium point that maximizes the vertical distance to the reference chord.
+| ![Pareto Frontier](q4_p1.png) | ![Normalized Pareto Frontier](q4_p2.png) | ![Metrics versus \lambda](q4_p3.png) |
+| :---: | :---: | :---: |
+| (a) Pareto Frontier | (b) Normalized Pareto Frontier | (c) Metrics versus $\lambda$ |
+
+> **Figure 2:** Empirical risk (LAD) and unfairness across various interpolation parameters $\lambda$ under real CRIME data.  
+> **(a)** The empirical trade-off between predictive risk and unfairness. The yellow marker indicates the optimal knee point ($\lambda=0.52$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.  
+> **(b)** The underlying mathematical mechanism for the optimal $\lambda$ selection. By mapping the frontier into a $[0,1]$ normalized space, the Kneedle algorithm rigorously identifies the equilibrium point that maximizes the vertical distance to the reference chord.  
+> **(c)** Empirical verification of Theorems 3.5 and 3.6. As $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the optimal knee point.
 
 ---
 
