@@ -1,5 +1,5 @@
-|
-## Figure 1. Normalized Pareto Frontier
+
+## Figure 1. 
 ![Empirical risk versus \lambda](q1_p1.png) | ![Empirical unfairness versus \lambda](q1_p2.png) |
 | :---: | :---: |
 | (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
@@ -13,7 +13,7 @@
 
   
 
-## Figure 2. Normalized Pareto Frontier
+## Figure 2. 
 
 | ![Pareto Frontier](q4_p1.png) | ![Normalized Pareto Frontier](q4_p2.png) | ![Metrics versus \lambda](q4_p3.png) |
 | :---: | :---: | :---: |
@@ -26,15 +26,14 @@
 
 ---
 
-## Figure5. Trade-off Dynamics over Interpolation Parameter $\lambda$
+## Figure3. 
 
-<div align="center">
-  <img src="q4_p3.png" width="500">
-</div>
+![Comparison of the estimated transformation](r_2_p_1.png)
 
-> **Figure 5: Trade-off Dynamics.** This figure plots the empirical risk (LAD)  and unfairness against the interpolation parameter $\lambda$. It empirically verifies our Theorems 3.5 and 3.6: as $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the  knee point  point.
+> **Figure:** Comparison of the estimated transformation $\widehat{Q}(u)$ using Standard I-Spline and Natural I-Spline. The Natural I-Spline restricts the second-order derivatives at the boundaries, resulting in a smoother estimation near $u=0$ and $u=1$.
 
 
+---
 
 **Table 1: Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials).**
 
@@ -46,6 +45,7 @@
 | Ours with Kernel CDF | **56.2993** | **1.7380** | 2.1211 | **1.0883** |
 
 
+---
 
 **Table 2: The runtime (in seconds) with varying sample sizes $(n)$ and numbers of I-spline basis functions ($J _{n}$).**
 
@@ -59,3 +59,23 @@
 | 20000 | 0.5125 | 1.8884 | 4.3074 | 7.1253 | 9.2683 | 4.7845 | 9.6148 |
 
 ---
+
+
+
+**Table 3:** Performance comparison of FRWB, Standard I-Spline and Natural I-Spline (100 Trials).
+
+| Method | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Unfairness (Mean) | Unfairness (Std. Dev.) |
+| :--- | :---: | :---: | :---: | :---: |
+| FRWB (Baseline) | 3.9541 | 1.6514 | 0.0124 | 0.0016 |
+| Natural I-Spline | 3.8872 | 1.6528 | **0.0040** | **0.0009** |
+| Standard I-Spline | **3.8762** | **1.6519** | 0.0049 | 0.0012 |
+
+
+
+
+**Table 4:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss with 100 trials.
+
+| Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
+| :--- | :---: | :---: | :---: | :---: |
+| Ours with Empirical CDF | 56.6451 | 1.8764 | 1.8371 | 1.8223 |
+| Ours with Kernel CDF | **56.3099** | **1.7002** | **1.6539** | **0.8690** |
