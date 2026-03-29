@@ -45,7 +45,7 @@
 | Ours with Kernel CDF | 55.9782 | **1.6860** | 0.8982 | **0.2793** |
 ---
 
-**Table 2: The runtime (in seconds) with varying sample sizes $(n)$ and numbers of I-spline basis functions ($J _{n}$).**
+**Table 2:** The runtime (in seconds) with varying sample sizes $(n)$ and numbers of I-spline basis functions ($J _{n}$).
 
 | $n \setminus J _{n}$ | 6 | 9 | 12 | 15 | 18 | 23 | 28 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
