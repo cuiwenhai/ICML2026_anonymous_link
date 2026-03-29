@@ -35,6 +35,19 @@
 
 ---
 
+## Figure4. 
+
+| ![Empirical risk versus \lambda](r_2_p_2.png) | ![Empirical unfairness versus \lambda](r_2_p_3.png) |
+| :---: | :---: |
+| (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
+
+> **Figure:** Performance evaluation over 100 independent trials under the Huber loss ($\zeta=1.345$). For the kernel-based CDF approach, we utilize the Wang-van Ryzin kernel to estimate the conditional CDF before obtaining our final predictor.  
+> **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$. This plot validates that for small $\lambda$, our kernel-based approach achieves lower empirical risk and significantly reduces the variance compared to the standard empirical CDF-based method.  
+> **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
+
+
+
+---
 **Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials); The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
 | Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
