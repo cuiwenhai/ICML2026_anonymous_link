@@ -35,16 +35,14 @@
 
 ---
 
-**Table 1: Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials).**
+**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials).
 
-| Estimator | Empirical Risk (Mean) | Empirical Risk (Std Dev) | Empirical Unfairness (Mean) | Empirical Unfairness (Std Dev) |
-| :--- | :--- | :--- | :--- | :--- |
-| RDNN | 52.36271 | 1.7622 | 48.8390 | 6.4750 |
-| FRWB | 57.1433 | 1.9206 | 1.7391 | 1.8635 |
-| Ours with Empirical CDF | 56.6733 | 2.0153 | **1.7220** | 1.8318 |
-| Ours with Kernel CDF | **56.2993** | **1.7380** | 2.1211 | **1.0883** |
-
-
+| Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
+| :--- | :---: | :---: | :---: | :---: |
+| RDNN | 52.3129 | 1.7436 | 48.4064 | 4.2938 |
+| FRWB | 57.0495 | 1.7684 | 1.5583 | 0.7503 |
+| Ours with Empirical CDF | **55.9728** | 1.6930 | **0.7031** | 0.3334 |
+| Ours with Kernel CDF | 55.9782 | **1.6860** | 0.8982 | **0.2793** |
 ---
 
 **Table 2: The runtime (in seconds) with varying sample sizes $(n)$ and numbers of I-spline basis functions ($J _{n}$).**
