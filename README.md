@@ -101,10 +101,26 @@
 
 
 
-
+---
 **Table 4:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss with 100 trials; The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups..
 
 | Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
 | Ours with Empirical CDF | 56.6451 | 1.8764 | 1.8371 | 1.8223 |
 | Ours with Kernel CDF | **56.3099** | **1.7002** | **1.6539** | **0.8690** |
+
+---
+
+
+**Table 5:** Sample means and standard deviations of empirical risk and unfairness for unconstrained predictors across various base models, and the corresponding fair predictors obtained via the proposed transformation, over 200 independent trials.
+
+| Base Model | Unconstrained Risk (Mean) | Unconstrained Risk (Std) | Unconstrained Unfairness (Mean) | Unconstrained Unfairness (Std) | Fair Risk (Mean) | Fair Risk (Std) | Fair Unfairness (Mean) | Fair Unfairness (Std) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| DNN | 0.9735 | 0.0530 | 2.4817 | 0.1599 | 1.4202 | 0.0769 | 0.0050 | 0.0010 |
+| Linear regression | 1.0148 | 0.0524 | 2.4806 | 0.1507 | 1.4473 | 0.0760 | **0.0049** | **0.0009** |
+| Random forest | **0.8818** | **0.0497** | 2.3719 | 0.1895 | **1.3405** | 0.0770 | 0.0057 | 0.0011 |
+| Support vector regression | 0.9620 | 0.0537 | **2.2937** | **0.1605** | 1.4115 | 0.0793 | **0.0049** | **0.0009** |
+
+
+
+
