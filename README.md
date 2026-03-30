@@ -66,9 +66,9 @@
 
 > **Figure 6:** Trade-off plot between empirical risk (Huber) and unfairness varying with the interpolation hyper-parameter $\lambda$ across different base methods in the simulation study (see Section 6.1).
 ---
-**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials); The degree of unfairness   for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
+**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials) with empirical Risk  $\mathcal{R}_N(f; L)$ and unfairness $\mathcal{U}_N(f)$; The degree of unfairness   for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
-| Estimator | Empirical Risk $\mathcal{R}_N(f; L)$ (Mean) | Empirical Risk $\mathcal{R}_N(f; L)$ (Std. Dev.) | Empirical Unfairness $\mathcal{U}_N(f)$ (Mean) | Empirical Unfairness $\mathcal{U}_N(f)$ (Std. Dev.) |
+| Estimator | Empirical Risk  (Mean) | Empirical Risk  (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness  (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
 | RDNN | 52.3129 | 1.7436 | 48.4064 | 4.2938 |
 | FRWB | 57.0495 | 1.7684 | 1.5583 | 0.7503 |
