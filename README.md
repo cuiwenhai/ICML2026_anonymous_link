@@ -46,6 +46,15 @@
 > **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
 
 
+## Figure 5
+
+| ![DNN](r3p2.png) | ![Linear Regression](r3p3.png) |
+| :---: | :---: |
+| (a) DNN | (b) Linear Regression |
+| ![Random Forest](r3p4.png) | ![SVMR](r3p5.png) |
+| (c) Random Forest | (d) SVMR |
+
+> **Figure 5:** Empirical verification of the impact of interpolation parameter $\lambda$ for different base models. Consistent with theoretical expectations, as $\lambda$ increases from $0$ to $1$, the empirical unfairness scales linearly while the empirical risk decreases monotonically.
 
 ---
 **Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials); The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
