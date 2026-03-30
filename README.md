@@ -46,7 +46,7 @@
 > **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
 
 ---
-## Figure 5
+## Figure 5.
 
 | ![DNN](r3p2.png) | ![Linear Regression](r3p3.png) |
 | :---: | :---: |
@@ -60,7 +60,7 @@
 ---
 
 
-## Figure 6
+## Figure 6.
 
 ![Trade-off plot](r3p1.png)
 
