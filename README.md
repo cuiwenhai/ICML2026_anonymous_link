@@ -26,22 +26,22 @@
 
 ---
 
-## Figure3. 
+## Figure 3. 
 
 ![Comparison of the estimated transformation](r_2_p_1.png)
 
-> **Figure:** Comparison of the estimated transformation $\widehat{Q}(u)$ using Standard I-Spline and Natural I-Spline. The Natural I-Spline restricts the second-order derivatives at the boundaries, resulting in a smoother estimation near $u=0$ and $u=1$.
+> **Figure 3:** Comparison of the estimated transformation $\widehat{Q}(u)$ using Standard I-Spline and Natural I-Spline. The Natural I-Spline restricts the second-order derivatives at the boundaries, resulting in a smoother estimation near $u=0$ and $u=1$.
 
 
 ---
 
-## Figure4. 
+## Figure 4. 
 
 | ![Empirical risk versus \lambda](r_2_p_2.png) | ![Empirical unfairness versus \lambda](r_2_p_3.png) |
 | :---: | :---: |
 | (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
 
-> **Figure:** Performance evaluation over 100 independent trials under the Huber loss ($\zeta=1.345$). For the kernel-based CDF approach, we utilize the Wang-van Ryzin kernel to estimate the conditional CDF before obtaining our final predictor.  
+> **Figure 4 :** Performance evaluation over 100 independent trials under the Huber loss ($\zeta=1.345$). For the kernel-based CDF approach, we utilize the Wang-van Ryzin kernel to estimate the conditional CDF before obtaining our final predictor.  
 > **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$. This plot validates that for small $\lambda$, our kernel-based approach achieves lower empirical risk and significantly reduces the variance compared to the standard empirical CDF-based method.  
 > **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
 
