@@ -33,20 +33,9 @@
 > **Figure 3:** Comparison of the estimated transformation $\widehat{Q}(u)$ using Standard I-Spline and Natural I-Spline. The Natural I-Spline restricts the second-order derivatives at the boundaries, resulting in a smoother estimation near $u=0$ and $u=1$.
 
 
----
-
-## Figure 4. 
-
-| ![Empirical risk versus \lambda](r_2_p_2.png) | ![Empirical unfairness versus \lambda](r_2_p_3.png) |
-| :---: | :---: |
-| (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
-
-> **Figure 4 :** Performance evaluation over 100 independent trials under the Huber loss ($\zeta=1.345$). For the kernel-based CDF approach, we utilize the Wang-van Ryzin kernel to estimate the conditional CDF before obtaining our final predictor.  
-> **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$. This plot validates that for small $\lambda$, our kernel-based approach achieves lower empirical risk and significantly reduces the variance compared to the standard empirical CDF-based method.  
-> **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
 
 ---
-## Figure 5.
+## Figure 4.
 
 | ![DNN](r3p2.png) | ![Linear Regression](r3p3.png) |
 | :---: | :---: |
@@ -99,20 +88,12 @@
 | Natural I-Spline | 3.8872 | 1.6528 | **0.0040** | **0.0009** |
 | Standard I-Spline | **3.8762** | **1.6519** | 0.0049 | 0.0012 |
 
-
-
----
-**Table 4:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss with 100 trials; The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups..
-
-| Estimator | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
-| :--- | :---: | :---: | :---: | :---: |
-| Ours with Empirical CDF | 56.6451 | 1.8764 | 1.8371 | 1.8223 |
-| Ours with Kernel CDF | **56.3099** | **1.7002** | **1.6539** | **0.8690** |
-
 ---
 
 
-**Table 5:** Sample means and standard deviations of empirical risk and unfairness for unconstrained predictors across various base models, and the corresponding fair predictors obtained via the proposed transformation, over 200 independent trials.
+
+
+**Table 4:** Sample means and standard deviations of empirical risk and unfairness for unconstrained predictors across various base models, and the corresponding fair predictors obtained via the proposed transformation, over 200 independent trials.
 
 | Base Model | Unconstrained Risk (Mean) | Unconstrained Risk (Std) | Unconstrained Unfairness (Mean) | Unconstrained Unfairness (Std) | Fair Risk (Mean) | Fair Risk (Std) | Fair Unfairness (Mean) | Fair Unfairness (Std) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
