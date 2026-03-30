@@ -43,13 +43,10 @@
 | ![Random Forest](r3p4.png) | ![SVMR](r3p5.png) |
 | (c) Random Forest | (d) SVMR |
 
-> **Figure 5:** Empirical verification of the impact of interpolation parameter $\lambda$ for different base models. Consistent with theoretical expectations, as $\lambda$ increases from $0$ to $1$, the empirical unfairness scales linearly while the empirical risk decreases monotonically.
-
-
 ---
 
 
-## Figure 6.
+## Figure 5.
 
 ![Trade-off plot](r3p1.png)
 
