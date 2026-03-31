@@ -52,7 +52,7 @@
 
 ![Trade-off plot](r3p1.png)
 
-> **Figure 5:** Trade-off plot between empirical risk (Huber) and unfairness varying with the interpolation hyper-parameter $\lambda$ across different base methods in the simulation study (see Section 6.1).
+> **Figure 5:** Trade-off plot between empirical risk (Huber) and unfairness across various interpolation parameter $\lambda$ with different base methods in the simulation study (see Section 6.1). We define FRWB-DNN as the composition of the FRWB method with a DNN serving as a base estimator $\widehat{f}$.
 ---
 **Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (200 Trials) with empirical risk  $\mathcal{R}_N(f; L)$ and unfairness $\mathcal{U}_N(f)$; The degree of unfairness   for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
