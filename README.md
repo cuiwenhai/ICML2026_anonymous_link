@@ -64,7 +64,7 @@
 | Ours with Kernel CDF | 55.9782 | **1.6860** | 0.8982 | **0.2793** |
 ---
 
-### **Table 2:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and numbers of I-spline basis functions ($J_n$).
+**Table 2:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and numbers of I-spline basis functions ($J_n$). To show the computational cost of the quantile optimization, we obtain the estimator $\widehat{f}$ using ordinary linear regression.
 
 | $n \setminus J_n$ | 6 | 9 | 12 | 15 | 18 | 23 | 28 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -100,6 +100,24 @@
 | Linear regression | 1.0148 | 0.0524 | 2.4806 | 0.1507 | 1.4473 | 0.0760 | **0.0049** | **0.0009** |
 | Random forest | **0.8818** | **0.0497** | 2.3719 | 0.1895 | **1.3405** | 0.0770 | 0.0057 | 0.0011 |
 | Support vector regression | 0.9620 | 0.0537 | **2.2937** | **0.1605** | 1.4115 | 0.0793 | **0.0049** | **0.0009** |
+
+
+
+
+---
+
+ **Table 5:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and values of $|\mathcal{S}|$, where the variable $S$ is drawn uniformly at random from the discrete set $\{0, 1, \ldots, |\mathcal{S}|\}$. To show the computational cost of the quantile optimization, we obtain the estimator $\widehat{f}$ using ordinary linear regression.
+
+| $n \setminus S$ | 2 | 4 | 8 | 16 | 20 | 25 | 30 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **500** | 0.017 (0.002) | 0.012 (0.000) | 0.012 (0.001) | 0.013 (0.001) | 0.013 (0.000) | 0.007 (0.000) | 0.009 (0.001) |
+| **1000** | 0.019 (0.013) | 0.021 (0.001) | 0.013 (0.000) | 0.013 (0.001) | 0.008 (0.001) | 0.015 (0.001) | 0.015 (0.001) |
+| **2000** | 0.051 (0.002) | 0.056 (0.001) | 0.042 (0.001) | 0.038 (0.001) | 0.041 (0.001) | 0.030 (0.001) | 0.038 (0.001) |
+| **5000** | 0.079 (0.001) | 0.040 (0.001) | 0.052 (0.001) | 0.051 (0.001) | 0.060 (0.001) | 0.032 (0.001) | 0.038 (0.001) |
+| **10000** | 0.079 (0.001) | 0.112 (0.002) | 0.084 (0.001) | 0.060 (0.001) | 0.071 (0.002) | 0.048 (0.001) | 0.055 (0.001) |
+| **20000** | 0.117 (0.002) | 0.141 (0.002) | 0.110 (0.002) | 0.099 (0.002) | 0.114 (0.098) | 0.070 (0.002) | 0.045 (0.002) |
+| **40000** | 0.321 (0.004) | 0.257 (0.006) | 0.212 (0.005) | 0.192 (0.006) | 0.234 (0.008) | 0.139 (0.003) | 0.152 (0.003) |
+| **80000** | 0.539 (0.014) | 0.466 (0.009) | 0.365 (0.015) | 0.228 (0.008) | 0.191 (0.008) | 0.170 (0.006) | 0.369 (0.016) |
 
 
 
