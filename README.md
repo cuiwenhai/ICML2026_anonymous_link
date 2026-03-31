@@ -43,6 +43,8 @@
 | ![Random Forest](r3p4.png) | ![SVMR](r3p5.png) |
 | (c) Random Forest | (d) SVMR |
 
+> **Figure 4:** Empirical verification of the impact of interpolation parameter $\lambda$ for different base models. As $\lambda$ increases from $0$ to $1$, the empirical unfairness scales linearly while the empirical risk decreases monotonically.
+
 ---
 
 
@@ -50,7 +52,7 @@
 
 ![Trade-off plot](r3p1.png)
 
-> **Figure 6:** Trade-off plot between empirical risk (Huber) and unfairness varying with the interpolation hyper-parameter $\lambda$ across different base methods in the simulation study (see Section 6.1).
+> **Figure 5:** Trade-off plot between empirical risk (Huber) and unfairness varying with the interpolation hyper-parameter $\lambda$ across different base methods in the simulation study (see Section 6.1).
 ---
 **Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (200 Trials) with empirical risk  $\mathcal{R}_N(f; L)$ and unfairness $\mathcal{U}_N(f)$; The degree of unfairness   for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
