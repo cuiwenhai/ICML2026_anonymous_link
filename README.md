@@ -5,8 +5,8 @@
 | (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
 
 > **Figure 1:** Performance evaluation over 200 independent trials under the Huber loss ($\zeta=1.345$).  
-> **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$. This plot validates that for small $\lambda$, our kernel-based approach achieves lower empirical risk and significantly reduces the variance compared to the standard empirical CDF-based method.  
-> **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
+> **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$.
+> **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach reduces the variance of the unfairness level compared to the standard empirical CDF-based method.
 
 
 ---
