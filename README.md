@@ -30,7 +30,7 @@
 
 ![Comparison of the estimated transformation](r_2_p_1.png)
 
-> **Figure 3:** Comparison of the estimated transformation $\widehat{Q}(u)$ using Standard I-Spline and Natural I-Spline. The Natural I-Spline restricts the second-order derivatives at the boundaries, resulting in a smoother estimation near $u=0$ and $u=1$.
+> **Figure 3:** Comparison of the estimated transformation $\widehat{Q}(u)$ using standard I-spline and natural I-spline. The natural I-spline restricts the second-order derivatives at the boundaries, resulting in a smoother estimation near $u=0$ and $u=1$.
 
 
 
