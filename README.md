@@ -79,7 +79,7 @@
 
 
 
-**Table 3:** Performance comparison of FRWB, Standard I-Spline and Natural I-Spline (100 Trials); The degree of unfairness for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
+**Table 3:** Performance comparison of FRWB, Standard I-Spline and Natural I-Spline (100 Trials.  The risk  $\mathcal{R}_N(f; L)$ is defined in  Section 3.4 and unfairness is defined in Define 3.2.
 
 | Method | Empirical Risk (Mean) | Empirical Risk (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
