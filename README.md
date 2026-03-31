@@ -19,7 +19,7 @@
 | :---: | :---: | :---: |
 | (a) Pareto Frontier | (b) Normalized Pareto Frontier | (c) Metrics versus $\lambda$ |
 
-> **Figure 2:** Empirical risk (LAD) and unfairness across various interpolation parameters $\lambda$ under real CRIME data.  
+> **Figure 2:** Empirical risk (LAD) and unfairness across various interpolation parameters $\lambda$ for real CRIME data.  
 > **(a)** The empirical trade-off between predictive risk and unfairness. The yellow marker indicates the optimal knee point ($\lambda=0.52$) identified by the Kneedle algorithm, representing the most cost-effective operating point for real-world deployment.  
 > **(b)** The underlying mathematical mechanism for the optimal $\lambda$ selection. By mapping the frontier into a $[0,1]$ normalized space, the Kneedle algorithm rigorously identifies the equilibrium point that maximizes the vertical distance to the reference chord.  
 > **(c)** Empirical verification of Theorems 3.5 and 3.6. As $\lambda$ increases, the unfairness scales strictly linearly while the empirical risk decreases monotonically. The red dashed line marks the optimal knee point.
