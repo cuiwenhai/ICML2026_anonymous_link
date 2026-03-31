@@ -64,7 +64,7 @@
 | Ours with Kernel CDF | 55.9782 | **1.6860** | 0.8982 | **0.2793** |
 ---
 
-**Table 2:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and numbers of I-spline basis functions ($J_n$). To show the computational cost of the quantile optimization, we obtain  estimator $\widehat{f}$ using the ordinary linear regression.
+**Table 2:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and numbers of I-spline basis functions ($J_n$) with fixed  $d=3$. To show the computational cost of the quantile optimization, we obtain  estimator $\widehat{f}$ using the ordinary linear regression.
 
 | $n \setminus J_n$ | 6 | 9 | 12 | 15 | 18 | 23 | 28 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
