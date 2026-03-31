@@ -4,7 +4,7 @@
 | :---: | :---: |
 | (a) Empirical risk versus $\lambda$ | (b) Empirical unfairness versus $\lambda$ |
 
-> **Figure 1:** Performance evaluation over 100 independent trials under the Huber loss ($\zeta=1.345$).  
+> **Figure 1:** Performance evaluation over 200 independent trials under the Huber loss ($\zeta=1.345$).  
 > **(a)** Empirical risk as a function of the interpolation hyper-parameter $\lambda$. This plot validates that for small $\lambda$, our kernel-based approach achieves lower empirical risk and significantly reduces the variance compared to the standard empirical CDF-based method.  
 > **(b)** Empirical unfairness versus $\lambda$. The results demonstrate that the kernel-based approach also significantly reduces the variance of the unfairness level compared to the standard empirical CDF-based method for small interpolation parameters.
 
@@ -52,7 +52,7 @@
 
 > **Figure 6:** Trade-off plot between empirical risk (Huber) and unfairness varying with the interpolation hyper-parameter $\lambda$ across different base methods in the simulation study (see Section 6.1).
 ---
-**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (100 Trials) with empirical risk  $\mathcal{R}_N(f; L)$ and unfairness $\mathcal{U}_N(f)$; The degree of unfairness   for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
+**Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (200 Trials) with empirical risk  $\mathcal{R}_N(f; L)$ and unfairness $\mathcal{U}_N(f)$; The degree of unfairness   for predictor $f$ is defined as the maximal Wasserstein-1 distance of conditional distribution $f(\boldsymbol{X}, S)$ between any pair of sensitive groups.
 
 | Estimator | Empirical Risk  (Mean) | Empirical Risk  (Std. Dev.) | Empirical Unfairness (Mean) | Empirical Unfairness  (Std. Dev.) |
 | :--- | :---: | :---: | :---: | :---: |
