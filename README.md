@@ -91,15 +91,76 @@
 
 
 
+**Table 4:** Sample means and standard deviations of empirical risk and unfairness for unconstrained estimators $\widehat{f}$ and constrained estimator $\widehat{g}_{\widehat{Q}}$ across various base models over 200 independent trials.
 
-**Table 4:** Sample means and standard deviations of empirical risk and unfairness for unconstrained predictors across various base models, and the corresponding fair predictors obtained via the proposed transformation, over 200 independent trials.
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Method</th>
+      <th colspan="2">Unconstrained Risk</th>
+      <th colspan="2">Unconstrained Unfairness</th>
+      <th colspan="2">Constrained Risk</th>
+      <th colspan="2">Constrained Unfairness</th>
+    </tr>
+    <tr>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DNN</td>
+      <td>0.9735</td>
+      <td>0.0530</td>
+      <td>2.4817</td>
+      <td>0.1599</td>
+      <td>1.4202</td>
+      <td>0.0769</td>
+      <td>0.0050</td>
+      <td>0.0010</td>
+    </tr>
+    <tr>
+      <td>Linear regression</td>
+      <td>1.0148</td>
+      <td>0.0524</td>
+      <td>2.4806</td>
+      <td>0.1507</td>
+      <td>1.4473</td>
+      <td>0.0760</td>
+      <td><strong>0.0049</strong></td>
+      <td><strong>0.0009</strong></td>
+    </tr>
+    <tr>
+      <td>Random forest</td>
+      <td><strong>0.8818</strong></td>
+      <td><strong>0.0497</strong></td>
+      <td>2.3719</td>
+      <td>0.1895</td>
+      <td><strong>1.3405</strong></td>
+      <td>0.0770</td>
+      <td>0.0057</td>
+      <td>0.0011</td>
+    </tr>
+    <tr>
+      <td>Support vector regression</td>
+      <td>0.9620</td>
+      <td>0.0537</td>
+      <td><strong>2.2937</strong></td>
+      <td><strong>0.1605</strong></td>
+      <td>1.4115</td>
+      <td>0.0793</td>
+      <td><strong>0.0049</strong></td>
+      <td><strong>0.0009</strong></td>
+    </tr>
+  </tbody>
+</table>
 
-| Base Model | Unconstrained Risk (Mean) | Unconstrained Risk (Std) | Unconstrained Unfairness (Mean) | Unconstrained Unfairness (Std) | Fair Risk (Mean) | Fair Risk (Std) | Fair Unfairness (Mean) | Fair Unfairness (Std) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| DNN | 0.9735 | 0.0530 | 2.4817 | 0.1599 | 1.4202 | 0.0769 | 0.0050 | 0.0010 |
-| Linear regression | 1.0148 | 0.0524 | 2.4806 | 0.1507 | 1.4473 | 0.0760 | **0.0049** | **0.0009** |
-| Random forest | **0.8818** | **0.0497** | 2.3719 | 0.1895 | **1.3405** | 0.0770 | 0.0057 | 0.0011 |
-| Support vector regression | 0.9620 | 0.0537 | **2.2937** | **0.1605** | 1.4115 | 0.0793 | **0.0049** | **0.0009** |
 
 
 
