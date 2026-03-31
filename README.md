@@ -167,7 +167,7 @@
 
 ---
 
- **Table 5:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and values of $|\mathcal{S}|$, where the variable $S$ is drawn uniformly at random from the discrete set $\{0, 1, \ldots, |\mathcal{S}|\}$. To show the computational cost of the quantile optimization, we obtain the estimator $\widehat{f}$ using ordinary linear regression.
+ **Table 5:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes $n$ and $|\mathcal{S}|$, where the variable $S$ is drawn uniformly at random from the discrete set $\{0, 1, \ldots, |\mathcal{S}|\}$. To show the computational cost of the quantile optimization, we obtain the estimator $\widehat{f}$ using ordinary linear regression.
 
 | $n \setminus S$ | 2 | 4 | 8 | 16 | 20 | 25 | 30 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
