@@ -53,6 +53,24 @@
 ![Trade-off plot](r3p1.png)
 
 > **Figure 5:** Trade-off plot between empirical risk (Huber) and unfairness across various interpolation parameter $\lambda$ with different base methods in the simulation study (see Section 6.1). We define FRWB-DNN as the composition of the FRWB method with a DNN serving as a base estimator $\widehat{f}$.
+
+
+
+
+
+
+
+
+## Figure 6.
+
+![Trade-off plot](r_33_1.png)
+
+> **Figure 6:** Empirical risk and conditional unfairness over 200 independent trials under the Huber loss ($\zeta=1.345$), where conditional unfairness is defined as $\max_{w\in \mathcal{W}}\sup_{s, s' \in \mathcal{S}} W_1(\nu_{(s,w)}^f, \nu_{(s',w)}^f)$  and $\nu_{(s,w)}^f$ denotes the conditional distribution  of  $f(\boldsymbol{X}, S)$ given $S=s$ and $W=w$.
+
+
+
+
+
 ---
 **Table 1:** Performance Comparison of Empirical and Kernel-based CDF Estimators under Huber Loss (200 Trials) with empirical risk  $\mathcal{R}_N(f; L)$ and unfairness $\mathcal{U}_N(f)$.
 
@@ -63,6 +81,12 @@
 | Ours with Empirical CDF | **55.9728** | 1.6930 | **0.7031** | 0.3334 |
 | Ours with Kernel CDF | 55.9782 | **1.6860** | 0.8982 | **0.2793** |
 ---
+
+
+
+
+
+
 
 **Table 2:** The mean and standard deviation of runtime (in seconds) over 30 repeats with varying sample sizes ($n$) and numbers of I-spline basis functions ($J_n$) with fixed  $d=3$. To show the computational cost of the quantile optimization, we obtain  estimator $\widehat{f}$ using the ordinary linear regression.
 
