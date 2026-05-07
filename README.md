@@ -1,12 +1,11 @@
 
 
+<div align="center">
+  <img src="pipeline_diagram.png" alt="Overview of the proposed framework">
+  <br>
+  Overview of the proposed framework
+</div>
 
-## 
- ![Overview of the proposed framework ](pipeline_diagram.png) |
-| :---:|
-
-
- 
 
 
 ## Figure 1. 
