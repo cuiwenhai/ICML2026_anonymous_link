@@ -2,7 +2,7 @@
 
 
 ## 
- ![Overview of the proposed framework  \lambda](pipeline_diagram.png) |
+ ![Overview of the proposed framework ](pipeline_diagram.png) |
 | :---:|
 
 
