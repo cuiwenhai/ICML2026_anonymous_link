@@ -1,4 +1,14 @@
 
+
+
+## 
+ ![Overview of the proposed framework  \lambda](pipeline_diagram.png) |
+| :---:|
+
+
+ 
+
+
 ## Figure 1. 
 ![Empirical risk versus \lambda](q1_p1.png) | ![Empirical unfairness versus \lambda](q1_p2.png) |
 | :---: | :---: |
